@@ -38,6 +38,9 @@ yarn-error.*
 
 example
 
+# temporary local development files
+.temp
+
 # generated native folders
 /ios
 /android
