@@ -34,7 +34,52 @@
         }
       ],
       "expo-secure-store",
-      "expo-font",
+      [
+        "expo-font", 
+        {
+          "fonts": [
+            "./assets/fonts/Buenard/Buenard.ttf",
+            "./assets/fonts/Playwrite_DK_Loopet/PlaywriteDKLoopet.ttf"
+          ],
+          "android": {
+            "fonts": [
+              {
+                "fontFamily": "Cantarell",
+                "fontDefinitions": [
+                  {
+                    "path": "./assets/fonts/Cantarell/Cantarell-Regular.ttf",
+                    "weight": 400,
+                    "style": "normal"
+                  },
+                  {
+                    "path": "./assets/fonts/Cantarell/Cantarell-Bold.ttf",
+                    "weight": 700,
+                    "style": "normal"
+                  },
+                  {
+                    "path": "./assets/fonts/Cantarell/Cantarell-Italic.ttf",
+                    "weight": 400,
+                    "style": "italic"
+                  },
+                  {
+                    "path": "./assets/fonts/Cantarell/Cantarell-BoldItalic.ttf",
+                    "weight": 700,
+                    "style": "italic"
+                  }
+                ]
+              }
+            ]
+          },
+          "ios": {
+            "fonts": [
+              "./assets/fonts/Cantarell/Cantarell-Regular.ttf",
+              "./assets/fonts/Cantarell/Cantarell-Bold.ttf",
+              "./assets/fonts/Cantarell/Cantarell-Italic.ttf",
+              "./assets/fonts/Cantarell/Cantarell-BoldItalic.ttf"
+            ]
+          }
+        }
+      ],
       "@react-native-community/datetimepicker"
     ],
     "experiments": {
